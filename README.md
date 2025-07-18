@@ -22,6 +22,23 @@
 - SUDO admin credentials from Marzneshin panel
 
 ---
+## Install Docker
+
+before insatll TrafficBot make sure the docker is installed
+
+```
+curl -fsSL https://get.docker.com | bash
+```
+
+then active docker with this two command 
+
+```
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+
+---
 
 ## ⚡️ One-Line Installation (Recommended)
 
