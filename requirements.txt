@@ -1,0 +1,7 @@
+aiogram[fast]
+httpx
+sqlalchemy
+pydantic
+python-dotenv
+asyncpg
+aiohttp
