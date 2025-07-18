@@ -30,6 +30,7 @@ You can install and run the bot on any Ubuntu server using:
 ```bash
 sudo bash -c "$(curl -sL https://raw.githubusercontent.com/lilezza/TrafficBot/main/install_luffybot.sh)"
 
+---
 
 🛠 Manual Setup (Optional)
 
@@ -38,18 +39,21 @@ sudo bash -c "$(curl -sL https://raw.githubusercontent.com/lilezza/TrafficBot/ma
 git clone https://github.com/lilezza/TrafficBot.git
 cd TrafficBot
 
+---
 
 2. Create .env file manually
 
 BOT_TOKEN=your-telegram-bot-token
 MARZNESHIN_API_BASE_URL=http://your-panel-url:8001
 
+---
 
 3. Build and run the Docker container
 
 docker build -t luffybot .
 docker run -d --name luffybot_container --env-file .env luffybot
 
+---
 
 🧾 Project Structure
 
@@ -64,6 +68,7 @@ TrafficBot/
 ├── requirements.txt
 └── .env (ignored via .gitignore)
 
+---
 
 🔐 Security Notes
 
@@ -71,18 +76,10 @@ TrafficBot/
 Only SUDO admins from the Marzneshin panel can log in to use the bot.
 No chat_id whitelisting is required thanks to credential-based access.
 
+---
 
 🧑‍💻 Author
 
 Made with ❤️ by @lil_rezza
 Feel free to fork, contribute or reach out for help
 
-
----
-
-### ✅ What to Do Now:
-- Replace `YourTelegramUsername` with your actual Telegram handle.
-- Commit this as `README.md` in the root of your GitHub project.
-- Done! Your repo will now look clean and professional for any developer 😎
-
-Need help with the README preview or deployment badge? Just say the word.
